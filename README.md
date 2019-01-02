@@ -26,5 +26,8 @@ Defaults:
 No. There are probably way cleaner and less behemoth ways of rebooting the router. This project was created just for fun to try out Puppeteer.  
 **But does it work?** It should, yes, but has only been tested with one model.
 
+**Installing as root?**
+You shouldn't but: `npm install --unsafe-perm=true --allow-root`
+
 ### License
 MIT
