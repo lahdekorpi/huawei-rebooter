@@ -3,6 +3,14 @@ const puppeteer = require("puppeteer");
 const config = require("./config.json");
 
 (async () => {
+	setTimeout(() => {
+		console.log("Timeout of 60 seconds reached. Killing...");
+		browser.close();
+		setTimeout(() => {
+			process.exit(1);
+		}, 5000)
+	}, 60000)
+
 	console.log("Launching browser");
 	const browser = await puppeteer.launch();
 	console.log("Creating page");
@@ -48,4 +56,5 @@ const config = require("./config.json");
 		console.log("Closing browser");
 		await browser.close()
 	}, 5000);
+
 })();
