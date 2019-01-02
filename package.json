@@ -1,0 +1,14 @@
+{
+  "name": "huawei-rebooter",
+  "version": "1.0.0",
+  "description": "Reboots a Huawei router using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toni Lähdekorpi <toni@lygon.net>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  }
+}
