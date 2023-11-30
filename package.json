@@ -10,6 +10,6 @@
   "author": "Toni Lähdekorpi <toni@lygon.net>",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^18.2.0"
   }
 }
